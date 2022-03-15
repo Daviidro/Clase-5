@@ -1,0 +1,43 @@
+body
+{
+    background-color: aliceblue;
+    min-width: auto;
+
+}
+
+img{
+
+    border: 1px solid;
+    border-radius: 20px
+    ;
+}
+/* media querie para table */
+
+@media (min-width: 768px) and (max-width:1024px) {
+    body {
+        background-color: black;
+    }
+
+    img {
+        width: 100%;
+        border: 2px solid white;
+    }
+}
+
+/* media querie para celular */
+
+@media (min-width: 320px) and (max-width:768px)  {
+    body {
+        background-color: rgb(255, 255, 255);
+        color: black
+    }
+
+    img {
+        width: 80%;
+        border: 20px auto;
+        border-radius: 20px;
+    }
+}
+
+/* media querie para Landscape */
+

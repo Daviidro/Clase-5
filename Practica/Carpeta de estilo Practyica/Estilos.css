@@ -1,0 +1,49 @@
+
+.logo {
+    margin: 0;
+    max-width: 100%;
+}
+
+body {
+
+    background-color: auto;
+    max-width: none;
+    min-width: auto;
+
+}
+
+.Titulo {
+    font-size: 50px;
+}
+
+.container {
+    max-width: 90%;
+    min-width: 90%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .05cm;
+    background-color: #412972;
+    padding: 64px 56px;
+    border-radius: 16px;
+     text-align: center
+    
+    }
+
+    @media (min-width: 768px) and (max-width:1024px) {
+        .Titulo }
+    
+     
+    
+    /* media querie para celular */
+    
+    @media (min-width: 320px) and (max-width:768px)  {
+        .Titulo 
+           
+        }
+    
+                
+     /* media querie para Texto */
+     
+     @media (min-width: 320px) and (max-width:768px)  {
+        .Titulo 
+                    }
